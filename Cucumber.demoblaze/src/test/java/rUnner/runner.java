@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"src//test//resources//features//login.feature"},glue = {"stepdef"},tags = {"@RRR1,@RRR2,@RRR3"},
 format = {"pretty","html:target/destination"})
-	Dj roshan
+	
 public class runner {
 	
 	
